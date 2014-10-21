@@ -11,7 +11,7 @@
             }
         }
     },
-    "triggers": {
+    "actions": {
         "retrieveWeatherObservations": {
             "main": "./weatherObservations.js",
             "title": "Retrieve Weather Observations",
