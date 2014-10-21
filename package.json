@@ -1,0 +1,11 @@
+{
+    "name": "elasticio-node-demo-geonames",
+    "description": "Demonstrates elastic.io Node.js API",
+    "engines": {
+        "node": "0.10.21",
+        "npm": "1.3.11"
+    },
+    "dependencies": {
+        "elasticio-node": "0.0.4"
+    }
+}

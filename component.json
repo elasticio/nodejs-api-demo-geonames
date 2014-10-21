@@ -1,0 +1,24 @@
+{
+    "title": "GeoNames",
+    "description": "The GeoNames geographical database covers all countries and contains over eight million placenames that are available for download free of charge.",
+    "credentials" : {
+        "fields": {
+            "username": {
+                "viewClass": "TextFieldView",
+                "label": "Username",
+                "required": true,
+                "placeholder": "Paste your GeoNames username"
+            }
+        }
+    },
+    "triggers": {
+        "retrieveWeatherObservations": {
+            "main": "./weatherObservations.js",
+            "title": "Retrieve Weather Observations",
+            "metadata": {
+                "in": "./schemas/weatherObservations.in.json",
+                "out" : "./schemas/weatherObservations.out.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "type": "object",
+    "properties": {
+        "weatherObservations": {
+            "type": "array",
+            "required": true,
+            "properties": {
+                "ICAO": {
+                    "type": "string",
+                    "title" : "ICAO",
+                    "required": true
+                },
+                "cloudsCode": {
+                    "type": "string",
+                    "title" : "clouds Code",
+                    "required": true
+                },
+                "clouds": {
+                    "type": "string",
+                    "title" : "Clouds",
+                    "required": true
+                },
+                "datetime": {
+                    "type": "string",
+                    "title" : "Date time",
+                    "required": true
+                },
+                "dewPoint": {
+                    "type": "string",
+                    "title" : "Dew Point",
+                    "required": true
+                },
+                "humidity": {
+                    "type": "number",
+                    "title" : "Humidity",
+                    "required": true
+                },
+                "lat": {
+                    "type": "number",
+                    "title" : "Latitude",
+                    "required": true
+                },
+                "lng": {
+                    "type": "number",
+                    "title" : "Longitude",
+                    "required": false
+                },
+                "observation": {
+                    "type": "string",
+                    "title" : "Observation",
+                    "required": true
+                },
+                "stationName": {
+                    "type": "string",
+                    "title" : "Station Name",
+                    "required": true
+                },
+                "temperature": {
+                    "type": "string",
+                    "title" : "Temperature",
+                    "required": true
+                },
+                "weatherCondition": {
+                    "type": "string",
+                    "title" : "Weather Condition",
+                    "required": true
+                },
+                "windDirection": {
+                    "type": "number",
+                    "title" : "Wind Direction",
+                    "required": true
+                },
+                "windSpeed": {
+                    "type": "string",
+                    "title" : "Wind Speed",
+                    "required": true
+                }
+            }
+        }
+    }}

@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "properties": {
+        "north": {
+            "type": "number",
+            "title" : "North",
+            "required": true
+        },
+        "south": {
+            "type": "number",
+            "title" : "South",
+            "required": true
+        },
+        "east": {
+            "type": "number",
+            "title" : "East",
+            "required": true
+        },
+        "west": {
+            "type": "number",
+            "title" : "West",
+            "required": true
+        }
+    }
+}
